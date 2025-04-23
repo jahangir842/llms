@@ -1,0 +1,16 @@
+This is a sample document about Retrieval-Augmented Generation (RAG).
+
+RAG is a technique that combines the power of large language models with the ability to retrieve information from external documents. It works by:
+
+1. Breaking documents into chunks
+2. Converting text into embeddings (numerical representations)
+3. Storing these embeddings in a vector database
+4. When a question is asked, finding relevant document chunks
+5. Using an LLM to generate an answer based on the retrieved context
+
+RAG helps overcome the limitations of traditional LLMs by:
+- Providing access to custom/private information
+- Reducing hallucination by grounding responses in source documents
+- Enabling real-time updates without model retraining
+
+This approach is particularly useful for creating chatbots that can answer questions about specific documents, knowledge bases, or private data.
